@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Vault - Products</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Name: Masarath Hossen, ID: 2430037 -->
+
+  <header>
+    <div class="logo">Tech Vault</div>
+    <p>Premium Tech Hardware & Daily Essentials</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html" class="active">Products</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <div class="hero-intro">
+      <h2>Featured Tech Catalog</h2>
+      <p>
+        Explore our curated selection of high-grade mechanical keyboards and ultra-accurate gaming mice. All our items include a standard 1-year official replacement warranty.
+      </p>
+    </div>
+
+    <!-- Required CSS Grid Container -->
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="images/keyboard.jpg" alt="Mechanical Keyboard">
+        <div class="product-details">
+          <h3>Pro Mechanical Keyboard</h3>
+          <p class="product-desc">Custom tactile linear switches, per-key RGB backlighting, and sturdy aluminum frame.</p>
+          <div class="price-row">
+            <span class="price">$50.00</span>
+            <!-- Button 2 with onclick event -->
+            <button class="btn btn-action" onclick="buyNow('Mechanical Keyboard')">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="images/mouse.jpg" alt="Precision Wireless Mouse">
+        <div class="product-details">
+          <h3>Precision Wireless Mouse</h3>
+          <p class="product-desc">Ultra-lightweight ergonomic chassis with zero-latency 2.4GHz wireless tracking.</p>
+          <div class="price-row">
+            <span class="price">$25.00</span>
+            <!-- Button with onclick event -->
+            <button class="btn btn-action" onclick="buyNow('Gaming Mouse')">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="notice-box">
+      <p>
+        New arrivals landing next week: 144Hz IPS Gaming Monitors and Studio ANC Headsets. Keep an eye on Tech Vault!
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Tech Vault. All rights reserved. | Contact: 01648463660</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
